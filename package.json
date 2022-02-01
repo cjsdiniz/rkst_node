@@ -1,0 +1,22 @@
+{
+  "name": "rkst_node",
+  "version": "1.0.0",
+  "description": "NodeJS Sample 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjsdiniz/rkst_node.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Carlos Diniz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjsdiniz/rkst_node/issues"
+  },
+  "homepage": "https://github.com/cjsdiniz/rkst_node#readme"
+}
