@@ -4,6 +4,7 @@
   "description": "NodeJS Sample 2022",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/cjsdiniz/rkst_node/issues"
   },
-  "homepage": "https://github.com/cjsdiniz/rkst_node#readme"
+  "homepage": "https://github.com/cjsdiniz/rkst_node#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }

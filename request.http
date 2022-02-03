@@ -1,0 +1,38 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+
+{
+    "name": "Notebook",
+    "price": 20
+}
+
+# {
+#     "name": "Pen",
+#     "price": 15
+# }
+
+###
+
+GET http://localhost:4002/products
+content-type: application/json
+
+###
+
+GET http://localhost:4002/products/6f744804-8b6b-4399-b411-cb3ebf2b9300
+content-type: application/json
+
+###
+
+PUT http://localhost:4002/products/01519122-551a-4968-94a7-a27d3c603a92
+content-type: application/json
+
+{
+    "name": "Pen",
+    "price": 20
+}
+
+###
+DELETE http://localhost:4002/products/01519122-551a-4968-94a7-a27d3c603a92
+content-type: application/json
+
